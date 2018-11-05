@@ -27,7 +27,7 @@ SECRET_KEY = '=w+1if4no=o&6!la#5j)3wsu%k@$)6bf+@3=i0h!5)h9h)$*s7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -120,7 +120,7 @@ if DEBUG:
             'NAME': 'HttpRunner',  # 新建数据库名
             'USER': 'root',  # 数据库登录名
             'PASSWORD': 'Df9FiW7es0.2',  # 数据库登录密码
-            'HOST': '192.168.52.168',  # 数据库所在服务器ip地址
+            'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
             'PORT': '3306',  # 监听端口 默认3306即可
         }
     }
@@ -134,7 +134,7 @@ else:
             'NAME': 'HttpRunner',  # 新建数据库名
             'USER': 'root',  # 数据库登录名
             'PASSWORD': 'Df9FiW7es0.2',  # 数据库登录密码
-            'HOST': '192.168.52.168',  # 数据库所在服务器ip地址
+            'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
             'PORT': '3306',  # 监听端口 默认3306即可
         }
     }
